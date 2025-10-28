@@ -15,12 +15,12 @@ class EmpleadoSeeder extends Seeder
     {
         //
         Empleado::create([
-            'nombre'=> 'Marcos',
-            'apellido'=> 'Mamani',
-            'correo'=> 'nabimqi@gmail.com',
+            'nombre'=> 'Alexander',
+            'apellido'=> 'Apaza',
+            'correo'=> 'alapaza@gmail.com',
             'salario'=>7000,
-        ]);
-                Empleado::create([
+       ]);
+       /*         Empleado::create([
             'nombre'=> 'Bryan',
             'apellido'=> 'Magne',
             'correo'=> 'mmagne@gmail.com',
@@ -73,6 +73,6 @@ class EmpleadoSeeder extends Seeder
             'apellido'=> 'Gomez Torrez',
             'correo'=> 'msgomezi@alicorp.com',
             'salario'=>4500,
-        ]);
+        ]);*/
     }
 }
