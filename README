@@ -1,0 +1,16 @@
+ejecutar un backend en Laravel, incluyendo los comandos para crear el proyecto, modelos, controladores y migraciones (usando el ejemplo de una tabla empleados)
+GUÍA DE EJECUCIÓN DEL BACKEND EN LARAVEL
+Crear un nuevo proyecto Laravel
+    composer create-project laravel/laravel backend
+ejecutar servidor
+    php artisan serve
+    http://127.0.0.1:8000/
+Crear un modelo con su migración
+php artisan make:model Empleado
+php artisan make:controller EmpleadoController --resource
+Ahora tendrás disponibles rutas REST:
+GET /api/empleados
+POST /api/empleados
+GET /api/empleados/{id}
+PUT /api/empleados/{id}
+DELETE /api/empleados/{id}
