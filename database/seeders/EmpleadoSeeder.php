@@ -15,64 +15,64 @@ class EmpleadoSeeder extends Seeder
     {
         //
         Empleado::create([
-            'nombre'=> 'Iban',
+            'nombre'=> 'Marcos',
             'apellido'=> 'Mamani',
-            'correo'=> 'ibanmqi@gmail.com',
-            'salario'=>7000.00,
+            'correo'=> 'nabimqi@gmail.com',
+            'salario'=>7000,
         ]);
                 Empleado::create([
             'nombre'=> 'Bryan',
             'apellido'=> 'Magne',
             'correo'=> 'mmagne@gmail.com',
-            'salario'=>5000.00,
+            'salario'=>5000,
         ]);
                 Empleado::create([
             'nombre'=> 'Arturo',
             'apellido'=> 'Valverde',
             'correo'=> 'avalverde@gmail.com',
-            'salario'=>3500.00,
+            'salario'=>3500,
         ]);
                 Empleado::create([
             'nombre'=> 'Nicho',
             'apellido'=> 'Efrain',
             'correo'=> 'nqfrain@gmail.com',
-            'salario'=>4500.00,
+            'salario'=>4500,
         ]);
                 Empleado::create([
             'nombre'=> 'Juan',
             'apellido'=> 'Roca',
             'correo'=> 'jrocad@gmail.com',
-            'salario'=>4500.00,
+            'salario'=>4500,
         ]);
                 Empleado::create([
             'nombre'=> 'Ana Maria',
             'apellido'=> 'Delin  Seliz',
             'correo'=> 'Amselin@gicloud.com',
-            'salario'=>3400.00,
+            'salario'=>3400,
         ]);
                 Empleado::create([
             'nombre'=> 'Juan',
             'apellido'=> 'Brito',
             'correo'=> 'britoj@icloud.com',
-            'salario'=>6700.00,
+            'salario'=>6700,
         ]);
                 Empleado::create([
             'nombre'=> 'Diana Melani',
             'apellido'=> 'Murrillo Quispe',
             'correo'=> 'dmelani04@hotmail.com',
-            'salario'=>4000.00,
+            'salario'=>4000,
         ]);
                 Empleado::create([
             'nombre'=> 'Jesus',
             'apellido'=> 'Cruz Moriz',
             'correo'=> 'jcruz@yahoo.com',
-            'salario'=>5600.00,
+            'salario'=>5600,
         ]);
                 Empleado::create([
             'nombre'=> 'Masiel',
             'apellido'=> 'Gomez Torrez',
             'correo'=> 'msgomezi@alicorp.com',
-            'salario'=>4500.00,
+            'salario'=>4500,
         ]);
     }
 }
